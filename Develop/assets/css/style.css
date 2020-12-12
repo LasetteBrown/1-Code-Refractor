@@ -9,19 +9,24 @@
     
     /*Styles that apply to the whole page*/
     body {
+        /* sets the background color for the page */
         background-color: #d9dcd6;
     }
     
     p {
+        /* sets the font size for all paragraph text */
         font-size: 16px;
     }
     
     h2 {
+        /* sets the font size for all h2 text. */
         font-size: 36px;
     }
     
     /*Creates a branded navigation bar header with logo*/
     .header {
+        /* This creates a teal colored bar at the top of the page
+        It also changes the font for just the header. */
         padding: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: #2a607c;
@@ -29,15 +34,20 @@
     }
     
     .logo {
+        /* Although I could have just applied these settings to all h1 selectors,
+        I chose to use a class so that the logo could be repeated
+        wherever it may be needed on future pages. */
         display: inline-block;
         font-size: 48px;
     }
     
     .seo {
+        /* This changes the color of the seo part of the logo. */
         color: #d9dcd6;
     }
     
     .nav {
+        /* This adjusts the placement, font and size of anything in the header that is not the logo */
         padding-top: 15px;
         margin-right: 20px;
         float: right;
@@ -46,15 +56,18 @@
     }
     
     .Nav-buttons {
+        /* This sets the list type for the list of things that can be clicked on */
         list-style-type: none;
     }
     
     .button {
+        /* This sets the placement of each item that can be clicked on */
         display: inline-block;
         margin-left: 25px;
     }
     
     a {
+        /* This sets the color and style of each link */
         color: #ffffff;
         text-decoration: none;
     }
@@ -71,12 +84,14 @@
     
     /*Main content styling */
     .content {
+        /* This sets the placement on the page of the main content. */
         width: 75%;
         display: inline-block;
         margin-left: 20px;
     }
     
     .feature-block {
+        /* This applies to each block of content. It sets position, font and color */
         margin-bottom: 20px;
         padding: 50px;
         height: 300px;
@@ -85,22 +100,26 @@
         color: #ffffff;
     }
     
-    .feature-block img {
+    .feature-image {
+        /* This limits the size of each picture within a contect clock. */
         max-height: 200px;
     }
     
     .float-left {
+        /* This allows the image to be positioned to the left of the text. */
         float: left;
         margin-right: 25px;
     }
     
     .float-right {
+        /* This allows the image to be positioned to the right of the text. */
         float: right;
         margin-left: 25px;
     }
     
     /* Sidebar Styling*/
     .benefits-sidebar {
+        /* This styling places a sidebar box to the right of the main content */
         margin-right: 20px;
         padding: 20px;
         clear: both;
@@ -112,16 +131,19 @@
     }
     
     .benefit {
+        /* This adjusts the spacing and text color of each item in the sidebar. */
         margin-bottom: 32px;
         color: #ffffff;
     }
     
     .benefit-title {
+        /* This centers the title of the sidebar item. */
         margin-bottom: 10px;
         text-align: center;
     }
     
     .benefit-img {
+        /* This positions and sizes the graphic for each sidebar item. */
         display: block;
         margin: 10px auto;
         max-width: 150px;
@@ -129,13 +151,15 @@
     
     /*Style for the credit and copyright*/
     .footer {
+        /* This changes the position and font of the footer */
         padding: 30px;
         clear: both;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
     }
     
-    .footer h2 {
+    .made {
+        /* This changes the spacing and font size of the made by credit */
         margin-bottom: 20px;
         font-size: 20px;
     }
