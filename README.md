@@ -18,6 +18,8 @@ I made the following changes to the code in order to make these improvements:
     
     * I added a title for the div containing the background image. This title is visible when a curser hovers over the image so I did not want the title to be confusing. I chose to make it generic as there was no important data contained within the background image. I therefore titled the background image "Horiseon Social Solution Services, Inc".
 
+    * I changed the html elements so that they used semantic selectors.
+
 * Tracking changes to the CSS file style.css
 
     * The css file is, in general, unnecessarily repetitive. Therefore, I looked for duplicate styling and consolidated it by creating a class that could be applied to all elements that shared the styling. 

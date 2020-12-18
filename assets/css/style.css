@@ -7,24 +7,14 @@
         
     }
     
-    /*Styles that apply to the whole page*/
     body {
         /* sets the background color for the page */
         background-color: #d9dcd6;
     }
     
-    p {
-        /* sets the font size for all paragraph text */
-        font-size: 16px;
-    }
-    
-    h2 {
-        /* sets the font size for all h2 text. */
-        font-size: 36px;
-    }
-    
+
     /*Creates a branded navigation bar header with logo*/
-    .header {
+    header {
         /* This creates a teal colored bar at the top of the page
         It also changes the font for just the header. */
         padding: 20px;
@@ -46,7 +36,7 @@
         color: #d9dcd6;
     }
     
-    .nav {
+    nav {
         /* This adjusts the placement, font and size of anything in the header that is not the logo */
         padding-top: 15px;
         margin-right: 20px;
@@ -83,7 +73,7 @@
     }
     
     /*Main content styling */
-    .content {
+    main {
         /* This sets the placement on the page of the main content. */
         width: 75%;
         display: inline-block;
@@ -104,6 +94,12 @@
         /* This limits the size of each picture within a contect clock. */
         max-height: 200px;
     }
+
+    p {
+        /* sets the font size for all paragraph text */
+        font-size: 16px;
+    }
+   
     
     .float-left {
         /* This allows the image to be positioned to the left of the text. */
@@ -118,7 +114,7 @@
     }
     
     /* Sidebar Styling*/
-    .benefits-sidebar {
+    aside {
         /* This styling places a sidebar box to the right of the main content */
         margin-right: 20px;
         padding: 20px;
@@ -150,12 +146,17 @@
     }
     
     /*Style for the credit and copyright*/
-    .footer {
+    footer {
         /* This changes the position and font of the footer */
         padding: 30px;
         clear: both;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
+    }
+     
+    h2 {
+        /* sets the font size for all h2 text. */
+        font-size: 36px;
     }
     
     .made {
